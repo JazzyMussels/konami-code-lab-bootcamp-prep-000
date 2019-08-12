@@ -12,5 +12,8 @@ const codes = [
 ];
 
 function init() {
-  const input = document.addEventListener('keydown', function(e))
+  document.addEventListener('keydown', function(e)) {
+    let index = 0
+    
+  }
 }
