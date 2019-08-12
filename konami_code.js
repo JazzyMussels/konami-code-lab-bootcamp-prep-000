@@ -14,7 +14,8 @@ const codes = [
 function init() {
   document.addEventListener('keydown', function(e) {
     let index = 0
-    var required = codes[index]
+    
+    var required_code = codes[index]
     
   
 }
