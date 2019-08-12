@@ -11,6 +11,7 @@ var allowedKeys = {
 var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
 
 // a variable to remember the 'position' the user has reached so far.
+function init() {
 var konamiCodePosition = 0;
 
 // add keydown event listener
@@ -34,5 +35,6 @@ document.addEventListener('keydown', function(e) {
   } else {
     konamiCodePosition = 0;
   }
-});
+})
+}
 
