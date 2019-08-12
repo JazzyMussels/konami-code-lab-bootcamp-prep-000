@@ -12,9 +12,6 @@ const codes = [
 ];
 
 function init() {
-
-}
-
   document.addEventListener('keydown', function(e) {
    var index = 0
    function onKeyDownHandler(e) {
@@ -34,3 +31,4 @@ function init() {
    }
   
 })
+}
