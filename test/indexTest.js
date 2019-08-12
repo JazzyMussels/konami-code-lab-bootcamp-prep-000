@@ -1,24 +1,23 @@
-const expect = chai.expect;
+//const expect = chai.expect;
 
-describe("index.js", () => {
+//describe("index.js", () => {
 
-  const codes = [
-    "ArrowUp",
-    "ArrowUp",
-    "ArrowDown",
-    "ArrowDown",
-    "ArrowLeft",
-    "ArrowRight",
-    "ArrowLeft",
-    "ArrowRight",
-    "b",
-    "a"
-  ];
+  //const codes = [
+//    "ArrowUp",
+ //   "ArrowDown",
+ //   "ArrowDown",
+ //   "ArrowLeft",
+ //   "ArrowRight",
+ //   "ArrowLeft",
+ //   "ArrowRight",
+ //   "b",
+ //   "a"
+ // ];
 
-  function triggerKeyDown(key) {
-    const keyboardEvent = new KeyboardEvent("keydown", { key });
-    document.body.dispatchEvent(keyboardEvent);
-  }
+ // function triggerKeyDown(key) {
+  //  const keyboardEvent = new KeyboardEvent("keydown", { //key });
+  //  document.body.dispatchEvent(keyboardEvent);
+  //}
   
   init()
 
