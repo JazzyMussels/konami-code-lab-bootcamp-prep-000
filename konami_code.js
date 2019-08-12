@@ -12,5 +12,5 @@ const codes = [
 ];
 
 function init() {
-  const input = document.body.addE
+  const input = document.body.addEventListener
 }
