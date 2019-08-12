@@ -14,7 +14,7 @@ const codes = [
 function init() {
   let index = 0
 
-document.body.addEventListener("keydown", (pressed)  {
+document.body.addEventListener("keydown", (pressed) => {
   const key = pressed.key 
   console.log(key) 
   
