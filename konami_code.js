@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init() {
-   let index = 0
+   var index = 0
 document.body.addEventListener("keydown", (pressed) => {
   if (codes[index] === pressed.key) {
     index += 1
