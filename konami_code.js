@@ -13,8 +13,8 @@ const codes = [
 
 function init() {
    var index = 0
-document.body.addEventListener("keydown", (pressed) => {
-  if (codes[index] === pressed.key) {
+document.body.addEventListener("keydown", (e) => {
+  if (codes[index] === e.key) {
     index += 1
   } 
   else {
